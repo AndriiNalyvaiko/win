@@ -1,0 +1,122 @@
+ @media screen and (min-width:1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+    .logotype{
+        margin-right: 76px;
+
+    }
+        .contacts-menu {
+            flex-direction: row;
+            gap: 40px;
+        }
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.main-background {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/header/people-office.jpg);
+    padding: 188px 0;
+
+}
+.main-head {
+    margin-bottom: 48px;
+}
+.made{
+    padding: 120px 0;
+}
+.made-menu{
+    gap: 24px;
+}
+.made-menu-item {
+    width: calc((100% - 72px) / 4);
+}
+.made-menu-wrap{
+    display: flex;
+}
+
+.made-menu-item-name{
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+   
+}
+.made-menu-item-text{
+
+    font-weight: 400;}
+
+
+ .wokers-background{
+
+    padding: 120px 0;
+  
+}
+
+.wokers-person {
+  
+    width: calc((100% - 72px) / 4);
+} 
+
+.works-menu {
+
+
+    gap: 48px 24px;
+}
+.works-item {
+
+    width: calc((100% - 48px) / 3);
+}
+
+.down {
+    background-color: #2e2f42;
+    padding: 100px 0px;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo-wrap {
+    margin-right: 120px;
+}
+
+.subscribe {
+ margin-left: 80px;
+}
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================media fog change img======================= */
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+    .main-background {
+        background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/header/people-office2x.jpg);
+    }
+}
+
